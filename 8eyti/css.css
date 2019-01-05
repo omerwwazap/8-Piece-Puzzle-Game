@@ -1,0 +1,136 @@
+
+/*E. Berke Karagöz | 21704206
+Levent Durdalı | 21702600*/
+
+.main{
+    position: relative;
+}
+.header{
+    text-align: center;
+    margin-top: 125px;
+    color: #b42;
+    font-size: 125px;
+    font-family: 'Special Elite', cursive;
+}
+#two.header{
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    color: #b42;
+    font-size: 50px;
+    font-size: 50px;
+}
+#one.image{
+    background: url("./lahmacun.jpg");
+    background-size: 225px 225px;
+}
+#two.image{
+    background: url("./beyti.jpg");
+    background-size: 225px 225px;
+}
+#three.image{
+    background: url("./kasarlibeyti.png");
+    background-size: 225px 225px;
+}
+
+#four.image{
+    background: url("./ayran.jpg");
+    background-size: 225px 225px;
+}
+
+.imageDiv{
+    display: flex;
+}
+
+.image:hover{
+    opacity: 1;
+}
+
+.puzzleDiv{
+    width: 620px;
+    height: 620px;
+    position: relative;
+    margin: 100px auto 50px auto;
+    background: #ddd;
+    border: 1px solid black;
+}
+
+.tile{
+    width: 200px;
+    height: 200px;
+    background-position: 0px 0px;
+    border-radius: 15px;
+    position: absolute;
+}
+
+.footer{
+    display: block;
+    text-align: center;
+}
+
+.combobox{
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Josefin Sans';
+    text-align: center;
+    font-size: 20px;
+}
+
+.tile:first-child {
+    display: none;
+}
+
+#final{
+width: 600px;
+height: 600px;
+border-radius: 0px;
+margin: 10px 10px;
+opacity: 1;
+}
+
+.btn{
+    margin: 0 auto;
+    margin-top: 50px;
+    line-height: 80px;
+    font-family: 'Special Elite', cursive;
+    color: #b42;
+    transition: width, background-color, letter-spacing, box-shadow, 0.5s ease;
+    background-color: white;
+    letter-spacing: 2px;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 185px;
+    height: 75px;
+    font-size: 40px;
+    text-align: center;
+}
+.btn:hover{
+    width: 200px;
+  background-color: #eee;
+box-shadow: 0px 10px 13px -7px #000000, 15px 16px 14px 3px #666666;
+}
+
+.btn:active{
+  background-color: #f00;
+}
+#desc{
+    border-top: 2px solid black;
+    width: 700px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: -80px;
+}
+p{
+    font-family: 'Josefin Sans';
+    text-align: center;
+    font-size: 40px;
+    color: #666;
+}
+.image{
+    width: 225px;
+    height: 225px;
+    float: left;
+    border-radius: 15px;
+    margin: 100px auto 0 auto;
+    transition: 0.5s ease;
+    opacity: 0.65;
+}
