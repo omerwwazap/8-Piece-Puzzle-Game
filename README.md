@@ -1,4 +1,4 @@
-# Learning-WebDevelopment
+# WebDevelopment
 Web Development Notes and Projects
 
-Will be updated after final exams
+Will be updated
